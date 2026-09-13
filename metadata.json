@@ -1,0 +1,74 @@
+{
+  "feature_columns": [
+    "Age",
+    "Gender",
+    "Academic_Level",
+    "Most_Used_Platform",
+    "Affects_Academic_Performance",
+    "Mental_Health_Score",
+    "Relationship_Status",
+    "Usage_Sleep_Ratio"
+  ],
+  "raw_ranges": {
+    "Age": [
+      18,
+      24
+    ],
+    "Mental_Health_Score": [
+      4,
+      9
+    ],
+    "Avg_Daily_Usage_Hours": [
+      1.5,
+      8.5
+    ],
+    "Sleep_Hours_Per_Night": [
+      3.8,
+      9.6
+    ],
+    "Addicted_Score": [
+      2.0,
+      9.0
+    ]
+  },
+  "dropdown_options": {
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "Academic_Level": [
+      "High School",
+      "Undergraduate",
+      "Graduate"
+    ],
+    "Most_Used_Platform": [
+      "Facebook",
+      "Instagram",
+      "KakaoTalk",
+      "LINE",
+      "LinkedIn",
+      "Snapchat",
+      "TikTok",
+      "Twitter",
+      "VKontakte",
+      "WeChat",
+      "WhatsApp",
+      "YouTube"
+    ],
+    "Affects_Academic_Performance": [
+      "No",
+      "Yes"
+    ],
+    "Relationship_Status": [
+      "Complicated",
+      "In Relationship",
+      "Single"
+    ]
+  },
+  "test_metrics": {
+    "MAE": 0.0899,
+    "MSE": 0.0552,
+    "RMSE": 0.235,
+    "R2": 0.9792
+  }
+}
